@@ -68,6 +68,9 @@ CREATE INDEX idx_ventas_numero_factura ON Ventas(numero_factura);
   return go(f, seed, [])
 }
 
+2:
+
+https://www.figma.com/design/DwyQvmfsnMKCkef0yO6rSV/Yamaha?node-id=1-53&m=dev&t=k3DpcRiIeq7IksjC-1
 
 4:
 
