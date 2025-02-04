@@ -1,7 +1,6 @@
 # yamaha
 1: 
 
-
 CREATE TABLE Departamentos (
     id_departamento INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL
@@ -71,6 +70,7 @@ CREATE INDEX idx_ventas_numero_factura ON Ventas(numero_factura);
 
 
 4:
+
 CREATE VIEW ClientesFrecuentes AS
 SELECT 
     c.id_cliente, 
